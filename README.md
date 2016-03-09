@@ -1,1 +1,1 @@
-This is the second project, of a series of projects, from the Treehouse Web Developer Techdegree program.  This project requires students to build a portfolio site with a responsive design at 3 break points.
+This is the second project, of a series of projects, from the Treehouse Web Developer Techdegree program.  This project requires students to build a portfolio site with a responsive design at 3 break points.  They should match the mockup layouts provided in the Mockups directory of this project.
