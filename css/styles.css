@@ -35,7 +35,16 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.portfolio, .project-card {
+.section-title {
+	font-size: 1em;
+	}
+
+.portfolio, 
+.project-card, 
+.main-footer, 
+.main-nav,
+.page-nav,
+.contact {
 	padding: 15px 10px;
 	margin: 0 auto;
 }
@@ -57,8 +66,22 @@ a:hover {
 	list-style: none;
 }
 
+.page-nav li {
+	width: 100%;
+	display: inline-block;
+	}
+
 .top-name {
 	font-size: 1.75em;
 }
 
+.contact {
+	width: 90%;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #cfcfcf;
+	}
+	
+.contact strong {
+	padding-left: 5px;
+	}
 
