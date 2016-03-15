@@ -1,0 +1,23 @@
+/* Global Layout Setup */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #4a4a4a;
+}
+
+/* Layout Containers */
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+/* Section Styles */
