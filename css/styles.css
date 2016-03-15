@@ -9,7 +9,20 @@ body {
 	padding: 0;
 	background: #fafafa;
 	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body, a {
 	color: #4a4a4a;
+}
+
+/* Link Styles */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ababab;
 }
 
 /* Layout Containers */
@@ -21,3 +34,4 @@ body {
 }
 
 /* Section Styles */
+
