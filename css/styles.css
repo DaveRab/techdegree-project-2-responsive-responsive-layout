@@ -15,10 +15,20 @@ body, a {
 	color: #4a4a4a;
 }
 
+img {	
+	width: 100%;
+}
+
+p {
+	margin-top: 1em;
+}
+
 /* Link Styles */
 
 a {
+	display: inline-block;
 	text-decoration: none;
+	width: 100%;
 }
 
 a:hover {
@@ -33,5 +43,43 @@ a:hover {
 	text-align: center;
 }
 
-/* Section Styles */
+
+/* Nav Styles */
+
+nav {
+	font-weight: 800;
+	margin-top: 20px;
+}
+
+.top-nav li {
+	margin-top: 30px;
+	padding: 10px 0;
+}
+
+nav li ~ li{
+	text-transform: uppercase;
+	}
+	
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+.top-name {
+	font-size: 1.75em;
+	padding: 10px 0;
+}
+
+/* Header Styles */ 
+
+
+.main-header {
+	margin-top: 45px;
+}
+
+
+/* Portfolio Section Styles */
+
+
 
