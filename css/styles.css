@@ -44,6 +44,7 @@ a:hover {
 }
 
 
+
 /* Nav Styles */
 
 nav {
@@ -52,7 +53,7 @@ nav {
 }
 
 .top-nav li {
-	margin-top: 30px;
+	margin-top: 15px;
 	padding: 10px 0;
 }
 
@@ -72,12 +73,28 @@ nav ul{
 	padding: 10px 0;
 }
 
+/* Paragraph Styles */
+
+.contact p,
+.main-header p {
+color: #7f7f7f;
+}
+
+.contact p:nth-child(2) {
+	padding-bottom: 15px;
+}
+
+
 /* Header Styles */ 
 
 
 .main-header {
 	margin-top: 45px;
 }
+
+.main-header img {
+	width: 70%;
+	}
 
 
 /* Portfolio Section Styles */
@@ -99,7 +116,7 @@ nav ul{
 }
 
 .project-card {
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 15px 0;
 }
 
@@ -111,5 +128,23 @@ nav ul{
 
 .bottom-nav {
 	border-top: 1px solid #eaeaea;
+}
+
+.bottom-nav li {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 15px 5px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	}
+
+.mobile-hidden {
+	visibility: hidden;
 }
 
